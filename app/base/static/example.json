@@ -1,0 +1,22 @@
+generatedProductsData = {
+    "all": {
+        "categories_data": [{
+            "x": "Indsutry",
+            "value": 586858,
+            "data": [{
+                "x": "Automotive",
+                "revenue": 576434,
+                "last": [3011, 7352, 11217, 2669, 2034, 2472, 11664, 9183, 10974, 7100, 7288, 4243],
+                "price": 28,
+                "average_price": 17,
+            }, {
+                "x": "Indsutry",
+                "value": 586858,
+                "data": [{
+                    "x": "Technology",
+                    "revenue": 576434,
+                    "last": [3011, 7352, 11217, 2669, 2034, 2472, 11664, 9183, 10974, 7100, 7288, 4243],
+                    "price": 28,
+                    "average_price": 17,
+                
+            }

@@ -1,0 +1,369 @@
+
+var colorAxisLines = '#CECECE';
+var colorMinorAxisLines = '#EAEAEA';
+var colorAxisFont = '#7c868e';
+var darkAccentColor = '#545f69';
+var fontColor = '#212121';
+var tooltipContourColor = '#c1c1c1';
+var palette = anychart.palettes.distinctColors().items([
+    '#64b5f6', '#1976d2', '#ef6c00', '#ffd54f',
+    '#455a64', '#96a6a6', '#dd2c00', '#00838f',
+    '#00bfa5', '#ffa000'
+]);
+var bullet_range_palette = anychart.palettes.distinctColors().items(['#8C8B8B', '#a8a8a8', '#bababa', '#d8d8d8', '#e5e4e4', '#F5F4F4']);
+var bigTooltipSettings = {
+    background: {fill: 'white', stroke: tooltipContourColor, corners: 3, cornerType: 'ROUND'},
+    padding: [8, 13, 5, 13],
+    anchor: 'LEFT_TOP',
+    offsetX: 10,
+    offsetY: 15
+};
+
+var bigTooltipTitleSettings = {
+    fontWeight: 'normal',
+    fontSize: '12px',
+    hAlign: 'left',
+    fontColor: fontColor
+};
+
+var setupBigTooltip = function (series) {
+    series.tooltip(true);
+    series.tooltip();
+    series.tooltip(bigTooltipSettings);
+    series.tooltip().useHtml(true).textSettings(bigTooltipTitleSettings);
+
+};
+
+var dataSetHeader = [['Industry', 'Invested $']];
+var table;
+var chart;
+var chart_selection;
+var table_selection;
+var categoryChart, categoryMapChart, categoryProductTable;
+var activeMember;
+var mainTableHeight, mainTableRect;
+var container_id = 'category-products-chart'
+var $chartContainer = $('#' + container_id);
+var mainTableHeight = parseInt($chartContainer.attr('data-height'));
+
+var revenueDataSet = anychart.data.set();
+
+var revenueDataSet_map1 = revenueDataSet.mapAs({'raised_amount_usd': 1, 'x': 0});
+
+function changeTab(tab_name, index) {
+    console.log("tab_name " + tab_name + " index" + index);
+    changeCategoryData(categoryChart, productsData['categories_data'], index);
+}
+
+function updateData(filter) {
+    console.log("updating data filter: " + filter);
+    productsData = generatedProductsData[filter];
+
+    console.log(productsData);
+
+}
+
+function createTable() {
+    var table = anychart.standalones.table();
+    table.cellBorder(null);
+    table.fontFamily("'Verdana', Helvetica, Arial, sans-serif")
+        .fontSize(11)
+        .useHtml(true)
+        .fontColor(darkAccentColor)
+        // .textWrap("noWrap")
+        .textOverflow("..")
+        .vAlign('middle');
+    table.getRow(0).cellBorder().bottom('1px #dedede');
+    table.getRow(0).vAlign('bottom');
+    table.getRow(0).height(25);
+    return table
+}
+
+function getGlobalDataByX(x) {
+    for (var i = 0; i < globalData.length; i++) {
+        if (globalData[i].category == x) {
+            console.log(globalData[i]);
+            var selectedData = globalData[i];
+            break;
+        }
+    }
+    return selectedData
+}
+
+function changeData(filter) {
+    console.log("changing data");
+    updateData(filter);
+    changeCategoryData(categoryChart, productsData['categories_data']);
+}
+
+function drillDown(x) {
+    if (selectedX) {
+        var selectedData = getGlobalDataByX(selectedX);
+        if (selectedData) selectedData['marker'] = {enabled: false};
+    }
+
+    selectedX = x;
+    selectedData = getGlobalDataByX(selectedX);
+    selectedData['marker'] = {enabled: true, type: 'star5', fill: palette.itemAt(3), size: 10, hovered: {size: 10}};
+    $('.category-name').html(selectedX);
+    revenueDataSet.data(globalData);
+    $('.product-name').html('');
+
+    console.log("setting category prodcut data");
+    setCategoryProductData(categoryProductTable, selectedData['data']);
+
+}
+
+function getAverage(data, index) {
+    var sum = 0;
+    for (var i = 0; i < data.length; i++) {
+        sum += data[i][index];
+    }
+    return Math.round(sum / data.length)
+}
+
+var changeCategoryData = function (chart, data, index) {
+    console.log("index: " + index);
+    globalData = data;
+
+    revenueDataSet.data(data);
+    var average = getAverage(data, 'raised_amount_usd');
+    chart.getSeries(0).data(revenueDataSet_map1);
+    chart.lineMarker(0).value(average);
+    chart.textMarker(0).value(average);
+    drillDown(data[0].category)
+};
+
+var drawCategoryProductTable = function (container_id) {
+    console.log("drawing category");
+    var $chartTableContainer = $('#' + container_id);
+    productsTableHeight = parseInt($chartTableContainer.attr('data-height'));
+    $chartTableContainer.css('height', productsTableHeight).html('');
+
+    var stage = anychart.graphics.create(container_id);
+
+    productsTableRect = anychart.graphics.rect(0, 35,
+        parseInt($chartTableContainer.width()),
+        mainTableHeight - 50).parent(stage);
+    productsTableRect.fill('#fff .0000000001').stroke(null).zIndex(200);
+
+    var table = createTable();
+    table.contents([['Product', 'Revenue trend', 'Revenue', 'FY0 YoY%', 'Rank']]);
+
+    anychart.graphics.events.listen(stage, "stageresize", function (e) {
+        var bounds = stage.getBounds();
+        bounds.top += 35;
+        bounds.height -= 55;
+        productsTableRect.setBounds(bounds);
+    });
+    table.getCol(0).width(100);
+    table.getCol(2).hAlign('center');
+    table.getCol(2).width(120);
+
+    table.getCol(3).hAlign('center');
+
+    table.getCol(4).hAlign('center');
+    table.getCol(4).width(100);
+    table.container(stage).draw();
+    console.log("finished catetory product table");
+    return table;
+};
+
+var drawCategoryChart = function (container_id) {
+
+    var $chartContainer = $('#' + container_id);
+    $chartContainer.css('height', parseInt($chartContainer.attr('data-height'))).html('');
+    var chart = anychart.bar();
+
+    chart.container(container_id);
+    chart.title(null);
+    chart.interactivity("by-x");
+    chart.padding(15, 0, 5, 0);
+    chart.legend().enabled(false);
+    chart.xAxis().labels().fontSize(11);
+    chart.yAxis().enabled(false);
+    chart.interactivity().selectionMode("none");
+
+    var series = chart.bar();
+
+    series.clip(false);
+    series.listen('pointClick', function (e) {
+        drillDown(e.iterator.get('x'));
+    });
+
+    chart.lineMarker(0)
+        .stroke({color: colorAxisFont, opacity: 1, thickness: '2 #cecece'})
+        .layout('vertical')
+        .scale(chart.yScale());
+
+    chart.textMarker(0)
+        .textSettings({fontSize: 10})
+        .scale(chart.yScale())
+        .fontColor(colorAxisFont)
+        .align('bottom')
+        .anchor('left-bottom')
+        .offsetX(5)
+        .offsetY(0)
+        .text('Average');
+
+    return chart;
+};
+
+function drawAllCharts(filter) {
+    console.log("drawing all charts");
+    categoryChart = drawCategoryChart('category-chart');
+    console.log('finished category chart');
+    categoryProductTable = drawCategoryProductTable('category-products-chart');
+    console.log('finished category table');
+    changeData(filter);
+
+}
+
+var setCategoryProductData = function (table, data) {
+    console.log('setting category prodcut data.')
+    table.getRow(table.rowsCount() - 1).height(null);
+
+    console.log(data);
+
+    var content = [
+        ['Industry', 'Invested $ 10Y trend', 'FY0 Invested $', 'FY0 YoY % Change', 'Invested $ Rank']
+    ];
+
+    for (var i = 0; i < data.length; i++) {
+        content.push(
+            [
+                data[i].category,
+                createSparkLine(data[i].raised_amount_10yr),
+                '$' + parseInt(data[i].raised_amount_usd).formatMoney(0, '.', ','),
+                createBulletChart(-100, 100, data[i].raised_amount_usd, data[i].yoy_pct_chg, false),
+                data[i].category_rank]
+        )
+    }
+    content.push(
+        [null, null, null, createBulletScale(300, -300, 100, 'x'), null]
+    );
+    table.contents(content);
+    if (activeRow) {
+        table.getRow(activeRow).cellFill(null);
+        activeRow = null;
+    }
+
+    anychart.graphics.events.listen(productsTableRect, "click", function (e) {
+        var h = (productsTableHeight - 50) / data.length;
+        var row = Math.round(e.offsetY / h) - 1;
+        if (!row)
+            return;
+        if (activeRow) {
+            table.getRow(activeRow).cellFill(null);
+        }
+        activeRow = row;
+        table.getRow(activeRow).cellFill("#F7A028 0.3");
+        $('.product-name').html(data[activeRow - 1].x);
+    });
+
+    anychart.graphics.events.listen(productsTableRect, "mousemove", function (e) {
+        var h = (productsTableHeight - 50) / data.length;
+        var row = Math.round(e.offsetY / h) - 1;
+        if (hoverRow && hoverRow != activeRow && table.getRow(hoverRow)) {
+            table.getRow(hoverRow).cellFill(null);
+        }
+        hoverRow = row;
+        if (hoverRow != activeRow && hoverRow != 0 && table.getRow(hoverRow)) table.getRow(hoverRow).cellFill("#F7A028 0.1");
+    });
+
+    anychart.graphics.events.listen(productsTableRect, "mouseout", function (e) {
+        if (hoverRow && hoverRow != activeRow && table.getRow(hoverRow)) {
+            table.getRow(hoverRow).cellFill(null);
+        }
+    });
+
+    table.getCol(0).hAlign('left');
+    table.getRow(data.length + 1).vAlign('top');
+    table.getRow(data.length + 1).height(15);
+
+    console.log("finished setCategoryProductData")
+};
+
+var setCategoryMapData = function (map, data) {
+    map.getSeries(0).data(data);
+};
+
+
+var createSparkLine = function (data) {
+    var sparkLine = anychart.sparkline(data);
+    sparkLine.seriesType('area');
+    var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    sparkLine.tooltip().enabled(true);
+    setupBigTooltip(sparkLine);
+    sparkLine.tooltip().padding('3px').title().enabled(true).fontColor(fontColor).fontWeight('normal');
+    sparkLine.tooltip().fontColor(darkAccentColor);
+    sparkLine.tooltip().titleFormat(function () {
+        return MONTHS[this.x]
+    });
+    sparkLine.tooltip().format(function () {
+        return this.value
+    });
+    sparkLine.padding(0);
+    sparkLine.margin(5, 0, 5, 0);
+    sparkLine.background(null);
+    sparkLine.xScale('linear');
+    sparkLine.xScale().minimumGap(0).maximumGap(0);
+    sparkLine.xScale().ticks().interval(1);
+    return sparkLine;
+};
+
+var createBulletChart = function (min, max, actual, target, invert) {
+    var value = -(100 - Math.round(actual * 100 / target));
+    if (invert) value = 100 - Math.round(actual * 100 / target);
+    var bullet = anychart.bullet([
+        {value: target, type: 'bar', gap: 0.6, fill: palette.itemAt(0), stroke: null},
+        {value: 0, 'type': 'line', 'gap': 0.2, fill: palette.itemAt(4), stroke: {thickness: 1.1, color: '#212121'}}
+    ]);
+    bullet.background(null);
+    bullet.axis(null);
+    bullet.title().enabled(false);
+    bullet.padding(0, -1);
+    bullet.margin(0);
+    bullet.rangePalette(bullet_range_palette);
+    bullet.scale().minimum(min);
+    bullet.scale().maximum(max);
+    bullet.layout('horizontal');
+    return bullet;
+};
+
+function createBulletScale(max, min, interval, value_str) {
+    var axis = anychart.standalones.axes.linear();
+    axis.title(null);
+    var scale = anychart.scales.linear();
+    scale.minimum(min).maximum(max).ticks().interval(interval);
+    axis.scale(scale);
+    axis.orientation('bottom');
+    axis.stroke(colorAxisLines);
+    axis.ticks().stroke(colorMinorAxisLines).length(4);
+    axis.labels().useHtml(true).padding(0, 3, 0, 10).fontColor(colorAxisFont).fontSize(10)
+        .format(function () {
+            if (value_str == 'x') return this.value / 100 + value_str;
+            else return this.value + value_str;
+        });
+    axis.minorTicks(null);
+    return axis
+}
+
+Number.prototype.formatMoney = function (c, d, t) {
+    var n = this,
+        c = isNaN(c = Math.abs(c)) ? 2 : c,
+        d = d == undefined ? "." : d,
+        t = t == undefined ? "," : t,
+        s = n < 0 ? "-" : "",
+        i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "",
+        j = (j = i.length) > 3 ? j % 3 : 0;
+    return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+};
+
+$(function () {
+    console.log("auto function firing");
+    console.log("auto function - drawing all charts");
+    drawAllCharts('all');
+    console.log("auto function - finished all charts");
+    changeTab('products');
+});

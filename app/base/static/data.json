@@ -1,0 +1,1314 @@
+generatedProductsData = {
+    "all": {
+        "categories_data": [{
+            "x": "Industry",
+            "value": 586858,
+            "data": [{
+                "x": "Automotive",
+                "revenue": 1234,
+                "last": [3011, 7352, 11217, 2669, 2034, 2472, 11664, 9183, 10974, 7100, 7288, 4243],
+                "price": 28,
+                "average_price": 17,
+            }, {
+                "x": "Technology",
+                "revenue": 520254,
+                "last": [5309, 9247, 2101, 6100, 10638, 2388, 11288, 1839, 11497, 7743, 4967, 11457],
+                "price": 9,
+                "average_price": 18,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 524564}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 387241
+                }, {"id": "FR.C", "x": "Auvergne", "value": 409811}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 468547
+                }, {"id": "FR.E", "x": "Bretagne", "value": 478644}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 466550
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 512414}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 325147
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 422040}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 484423
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 512660}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 586942
+                }, {"id": "FR.M", "x": "Lorraine", "value": 386748}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 513216
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 346783}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 481680
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 553618}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 424955
+                }, {"id": "FR.S", "x": "Picardie", "value": 539402}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 338824
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 443421}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 425656
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 536908}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 357557
+                }, {"id": "FR.MG", "x": "Martinique", "value": 375091}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 316534
+                }, {"id": "FR.RE", "x": "Reunion", "value": 453786}]
+            }, {
+                "x": "Georges Duboeuf, Morgon",
+                "revenue": 50347,
+                "last": [7129, 4020, 4355, 9976, 4226, 10641, 10815, 8393, 9196, 2560, 2484, 7962],
+                "price": 30,
+                "average_price": 19,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 445735}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 548560
+                }, {"id": "FR.C", "x": "Auvergne", "value": 414121}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 560698
+                }, {"id": "FR.E", "x": "Bretagne", "value": 587688}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 353133
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 460459}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 424081
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 349629}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 493795
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 323988}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 535618
+                }, {"id": "FR.M", "x": "Lorraine", "value": 454776}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 348606
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 396984}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 495437
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 484471}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 540738
+                }, {"id": "FR.S", "x": "Picardie", "value": 372823}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 529674
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 355520}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 545120
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 505676}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 355551
+                }, {"id": "FR.MG", "x": "Martinique", "value": 516265}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 406367
+                }, {"id": "FR.RE", "x": "Reunion", "value": 537878}]
+            }, {
+                "x": "Domaine de Tara",
+                "revenue": 179125,
+                "last": [6737, 8416, 4049, 10178, 3315, 7447, 2310, 10604, 8437, 3701, 4389, 11463],
+                "price": 49,
+                "average_price": 19,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 521486}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 432477
+                }, {"id": "FR.C", "x": "Auvergne", "value": 317759}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 388900
+                }, {"id": "FR.E", "x": "Bretagne", "value": 530508}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 463809
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 588344}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 428954
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 384365}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 369124
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 398540}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 362910
+                }, {"id": "FR.M", "x": "Lorraine", "value": 520197}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 505775
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 364459}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 328993
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 410560}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 488224
+                }, {"id": "FR.S", "x": "Picardie", "value": 395915}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 420704
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 403733}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 371552
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 347308}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 334206
+                }, {"id": "FR.MG", "x": "Martinique", "value": 512968}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 375446
+                }, {"id": "FR.RE", "x": "Reunion", "value": 414466}]
+            }, {
+                "x": "Chateau Beaulieu",
+                "revenue": 560214,
+                "last": [5111, 3798, 2371, 4813, 4866, 6203, 10344, 4119, 2578, 2013, 11471, 9429],
+                "price": 47,
+                "average_price": 14,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 436506}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 321359
+                }, {"id": "FR.C", "x": "Auvergne", "value": 544889}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 487005
+                }, {"id": "FR.E", "x": "Bretagne", "value": 596081}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 419130
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 566834}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 485683
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 532096}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 330008
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 479406}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 329213
+                }, {"id": "FR.M", "x": "Lorraine", "value": 503853}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 447304
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 343090}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 540506
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 407186}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 318274
+                }, {"id": "FR.S", "x": "Picardie", "value": 408374}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 333647
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 360523}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 401719
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 339685}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 322081
+                }, {"id": "FR.MG", "x": "Martinique", "value": 576214}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 372767
+                }, {"id": "FR.RE", "x": "Reunion", "value": 449012}]
+            }, {
+                "x": "Bordeaux, Bordeaux",
+                "revenue": 323480,
+                "last": [8238, 7678, 11195, 8894, 9432, 5279, 10088, 10583, 2543, 5106, 6878, 8189],
+                "price": 27,
+                "average_price": 14,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 569034}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 582659
+                }, {"id": "FR.C", "x": "Auvergne", "value": 549695}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 520420
+                }, {"id": "FR.E", "x": "Bretagne", "value": 401369}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 411033
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 309222}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 355616
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 417701}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 549823
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 386013}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 414899
+                }, {"id": "FR.M", "x": "Lorraine", "value": 446892}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 390487
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 405610}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 302502
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 393052}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 385367
+                }, {"id": "FR.S", "x": "Picardie", "value": 434364}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 384640
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 305235}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 460556
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 344132}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 379547
+                }, {"id": "FR.MG", "x": "Martinique", "value": 519188}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 352700
+                }, {"id": "FR.RE", "x": "Reunion", "value": 400808}]
+            }, {
+                "x": "Maison Lacassan",
+                "revenue": 10074,
+                "last": [5459, 11296, 7732, 5090, 3988, 8273, 1945, 7276, 11394, 5570, 1816, 6337],
+                "price": 6,
+                "average_price": 10,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 447571}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 579266
+                }, {"id": "FR.C", "x": "Auvergne", "value": 557999}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 537595
+                }, {"id": "FR.E", "x": "Bretagne", "value": 474184}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 496664
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 425036}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 509360
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 463021}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 486539
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 337544}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 419135
+                }, {"id": "FR.M", "x": "Lorraine", "value": 578239}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 362380
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 378133}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 520961
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 493274}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 562158
+                }, {"id": "FR.S", "x": "Picardie", "value": 538064}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 493881
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 361455}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 482899
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 311907}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 523311
+                }, {"id": "FR.MG", "x": "Martinique", "value": 515402}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 535979
+                }, {"id": "FR.RE", "x": "Reunion", "value": 427685}]
+            }, {
+                "x": "Jean de Saligny",
+                "revenue": 106157,
+                "last": [1773, 1659, 6461, 3019, 7852, 9241, 10364, 7990, 5224, 4027, 9657, 6700],
+                "price": 35,
+                "average_price": 10,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 360445}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 492081
+                }, {"id": "FR.C", "x": "Auvergne", "value": 576417}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 533602
+                }, {"id": "FR.E", "x": "Bretagne", "value": 508915}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 587015
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 506276}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 379136
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 335666}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 450325
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 387245}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 471918
+                }, {"id": "FR.M", "x": "Lorraine", "value": 400575}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 519171
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 328345}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 515721
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 477244}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 423881
+                }, {"id": "FR.S", "x": "Picardie", "value": 405251}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 473976
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 563654}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 439095
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 492129}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 305937
+                }, {"id": "FR.MG", "x": "Martinique", "value": 300482}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 567792
+                }, {"id": "FR.RE", "x": "Reunion", "value": 302811}]
+            }, {
+                "x": "Patriarche, Pinot Noirs",
+                "revenue": 184384,
+                "last": [3251, 1711, 5423, 3809, 3333, 5565, 10326, 5908, 8551, 3010, 5992, 1669],
+                "price": 31,
+                "average_price": 12,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 538494}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 400026
+                }, {"id": "FR.C", "x": "Auvergne", "value": 533311}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 578164
+                }, {"id": "FR.E", "x": "Bretagne", "value": 490704}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 393345
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 319368}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 330381
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 506198}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 405439
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 580548}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 556150
+                }, {"id": "FR.M", "x": "Lorraine", "value": 493895}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 314035
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 505010}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 324434
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 444579}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 302994
+                }, {"id": "FR.S", "x": "Picardie", "value": 317531}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 426538
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 531490}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 436610
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 366890}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 335938
+                }, {"id": "FR.MG", "x": "Martinique", "value": 516505}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 575317
+                }, {"id": "FR.RE", "x": "Reunion", "value": 449438}]
+            }, {
+                "x": "Dourthe ?1 Sauvignon",
+                "revenue": 529386,
+                "last": [5839, 4413, 11970, 4167, 8641, 3213, 4411, 8082, 11377, 11700, 7706, 9730],
+                "price": 57,
+                "average_price": 12,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 381869}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 374050
+                }, {"id": "FR.C", "x": "Auvergne", "value": 405289}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 520546
+                }, {"id": "FR.E", "x": "Bretagne", "value": 490081}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 552761
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 593262}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 595793
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 348670}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 391267
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 309502}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 584802
+                }, {"id": "FR.M", "x": "Lorraine", "value": 404575}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 303094
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 322290}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 462746
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 582989}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 462957
+                }, {"id": "FR.S", "x": "Picardie", "value": 551312}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 522272
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 445867}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 532235
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 395096}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 441619
+                }, {"id": "FR.MG", "x": "Martinique", "value": 404961}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 379163
+                }, {"id": "FR.RE", "x": "Reunion", "value": 503001}]
+            }, {
+                "x": "Robert Ampeau et Fils",
+                "revenue": 122077,
+                "last": [5335, 8189, 3517, 7907, 5596, 2106, 11701, 2542, 10915, 5613, 4638, 2333],
+                "price": 27,
+                "average_price": 19,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 323522}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 535054
+                }, {"id": "FR.C", "x": "Auvergne", "value": 502870}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 458958
+                }, {"id": "FR.E", "x": "Bretagne", "value": 393862}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 337069
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 510020}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 323831
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 351363}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 546901
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 510564}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 303195
+                }, {"id": "FR.M", "x": "Lorraine", "value": 367216}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 459202
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 313419}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 453270
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 433530}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 381991
+                }, {"id": "FR.S", "x": "Picardie", "value": 517364}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 421993
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 529419}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 329631
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 310813}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 555331
+                }, {"id": "FR.MG", "x": "Martinique", "value": 345958}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 337001
+                }, {"id": "FR.RE", "x": "Reunion", "value": 541352}]
+            }, {
+                "x": "Tour du Vosc",
+                "revenue": 359730,
+                "last": [4105, 6039, 5477, 6721, 1847, 7676, 6272, 9543, 3827, 2502, 1624, 4032],
+                "price": 57,
+                "average_price": 20,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 356805}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 353019
+                }, {"id": "FR.C", "x": "Auvergne", "value": 433570}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 414689
+                }, {"id": "FR.E", "x": "Bretagne", "value": 563377}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 570698
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 584731}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 438410
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 500245}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 539936
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 333575}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 576161
+                }, {"id": "FR.M", "x": "Lorraine", "value": 368050}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 555632
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 408999}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 306213
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 429701}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 559917
+                }, {"id": "FR.S", "x": "Picardie", "value": 578523}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 418269
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 345462}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 385538
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 557595}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 421235
+                }, {"id": "FR.MG", "x": "Martinique", "value": 422250}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 324924
+                }, {"id": "FR.RE", "x": "Reunion", "value": 553031}]
+            }, {
+                "x": "Chateau Saint Nicolas",
+                "revenue": 469993,
+                "last": [2108, 4620, 5166, 4496, 11363, 5616, 10036, 6343, 10728, 11803, 7527, 10504],
+                "price": 52,
+                "average_price": 20,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 383052}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 504639
+                }, {"id": "FR.C", "x": "Auvergne", "value": 558103}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 315365
+                }, {"id": "FR.E", "x": "Bretagne", "value": 457764}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 483231
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 363442}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 300066
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 572945}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 536872
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 337798}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 554930
+                }, {"id": "FR.M", "x": "Lorraine", "value": 372855}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 511321
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 373557}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 527143
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 396517}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 526005
+                }, {"id": "FR.S", "x": "Picardie", "value": 551673}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 459864
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 549178}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 460208
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 438601}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 549912
+                }, {"id": "FR.MG", "x": "Martinique", "value": 542459}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 523910
+                }, {"id": "FR.RE", "x": "Reunion", "value": 590890}]
+            }, {
+                "x": "Les Colombieres",
+                "revenue": 82055,
+                "last": [6219, 7091, 1712, 2811, 2601, 8129, 2829, 2402, 1901, 8209, 8496, 10313],
+                "price": 32,
+                "average_price": 18,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 350683}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 307387
+                }, {"id": "FR.C", "x": "Auvergne", "value": 542563}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 555487
+                }, {"id": "FR.E", "x": "Bretagne", "value": 515896}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 458591
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 394663}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 380556
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 390744}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 509306
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 363168}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 455153
+                }, {"id": "FR.M", "x": "Lorraine", "value": 469018}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 592204
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 407215}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 527708
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 357555}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 372562
+                }, {"id": "FR.S", "x": "Picardie", "value": 574795}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 300870
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 457214}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 392536
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 401497}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 586825
+                }, {"id": "FR.MG", "x": "Martinique", "value": 310261}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 539376
+                }, {"id": "FR.RE", "x": "Reunion", "value": 412062}]
+            }, {
+                "x": "Barton & Guestier",
+                "revenue": 497559,
+                "last": [2113, 8813, 2908, 6340, 1658, 1939, 8297, 3135, 6345, 11995, 11451, 2308],
+                "price": 42,
+                "average_price": 17,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 438078}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 456069
+                }, {"id": "FR.C", "x": "Auvergne", "value": 496583}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 516960
+                }, {"id": "FR.E", "x": "Bretagne", "value": 390456}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 447143
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 340643}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 484348
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 369712}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 490499
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 304467}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 423832
+                }, {"id": "FR.M", "x": "Lorraine", "value": 349832}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 307795
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 387927}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 347856
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 342885}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 399082
+                }, {"id": "FR.S", "x": "Picardie", "value": 494797}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 330178
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 522930}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 570043
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 471130}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 572350
+                }, {"id": "FR.MG", "x": "Martinique", "value": 354414}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 383442
+                }, {"id": "FR.RE", "x": "Reunion", "value": 559124}]
+            }, {
+                "x": "Maison Bouey",
+                "revenue": 288758,
+                "last": [4555, 7786, 8900, 11432, 9977, 2505, 2813, 4929, 5085, 2389, 7147, 3709],
+                "price": 20,
+                "average_price": 17,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 560964}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 599186
+                }, {"id": "FR.C", "x": "Auvergne", "value": 598067}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 570093
+                }, {"id": "FR.E", "x": "Bretagne", "value": 499684}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 324381
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 435229}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 366942
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 343441}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 491041
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 436344}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 368746
+                }, {"id": "FR.M", "x": "Lorraine", "value": 462454}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 413542
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 555091}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 582411
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 588979}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 533921
+                }, {"id": "FR.S", "x": "Picardie", "value": 507275}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 357114
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 461068}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 302302
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 376779}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 374132
+                }, {"id": "FR.MG", "x": "Martinique", "value": 389512}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 505682
+                }, {"id": "FR.RE", "x": "Reunion", "value": 395278}]
+            }, {
+                "x": "Maison Bouey Lettres",
+                "revenue": 488146,
+                "last": [3361, 7373, 8846, 6709, 3732, 6770, 3315, 8344, 2296, 6809, 2433, 8741],
+                "price": 54,
+                "average_price": 10,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 588241}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 372911
+                }, {"id": "FR.C", "x": "Auvergne", "value": 310901}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 335396
+                }, {"id": "FR.E", "x": "Bretagne", "value": 361998}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 578400
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 535379}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 432962
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 587734}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 543342
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 563529}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 329740
+                }, {"id": "FR.M", "x": "Lorraine", "value": 418497}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 503758
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 538641}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 377194
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 449818}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 319848
+                }, {"id": "FR.S", "x": "Picardie", "value": 529535}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 564901
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 486377}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 394321
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 498091}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 353918
+                }, {"id": "FR.MG", "x": "Martinique", "value": 449258}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 361661
+                }, {"id": "FR.RE", "x": "Reunion", "value": 584687}]
+            }, {
+                "x": "Clos Floridene",
+                "revenue": 570387,
+                "last": [6944, 11756, 7704, 3691, 3586, 3261, 11525, 9660, 10093, 6839, 2436, 8246],
+                "price": 48,
+                "average_price": 11,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 458789}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 592289
+                }, {"id": "FR.C", "x": "Auvergne", "value": 472561}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 311858
+                }, {"id": "FR.E", "x": "Bretagne", "value": 512585}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 336376
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 379930}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 467444
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 379536}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 388043
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 413498}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 391809
+                }, {"id": "FR.M", "x": "Lorraine", "value": 466442}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 307689
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 321705}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 399556
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 372586}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 399019
+                }, {"id": "FR.S", "x": "Picardie", "value": 330011}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 525330
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 318225}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 432990
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 505735}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 497656
+                }, {"id": "FR.MG", "x": "Martinique", "value": 343762}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 386972
+                }, {"id": "FR.RE", "x": "Reunion", "value": 590519}]
+            }, {
+                "x": "Chateau Reynon",
+                "revenue": 497648,
+                "last": [1914, 9022, 2075, 2954, 4048, 1843, 2445, 9306, 11473, 9878, 9901, 8326],
+                "price": 35,
+                "average_price": 20,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 358117}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 559757
+                }, {"id": "FR.C", "x": "Auvergne", "value": 370115}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 574310
+                }, {"id": "FR.E", "x": "Bretagne", "value": 551513}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 584432
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 468374}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 390364
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 583080}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 593739
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 570285}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 364952
+                }, {"id": "FR.M", "x": "Lorraine", "value": 560497}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 542633
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 363141}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 569112
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 472607}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 530829
+                }, {"id": "FR.S", "x": "Picardie", "value": 564273}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 579469
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 321634}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 436308
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 561860}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 557629
+                }, {"id": "FR.MG", "x": "Martinique", "value": 447491}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 359279
+                }, {"id": "FR.RE", "x": "Reunion", "value": 483576}]
+            }, {
+                "x": "Les Domaines Montariol",
+                "revenue": 76107,
+                "last": [9426, 3129, 8717, 10069, 11383, 3628, 8056, 8857, 11441, 6622, 3260, 5527],
+                "price": 40,
+                "average_price": 15,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 590389}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 419486
+                }, {"id": "FR.C", "x": "Auvergne", "value": 402982}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 335511
+                }, {"id": "FR.E", "x": "Bretagne", "value": 350698}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 582571
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 421466}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 355859
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 322927}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 549597
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 515734}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 485717
+                }, {"id": "FR.M", "x": "Lorraine", "value": 495782}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 481528
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 570961}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 549230
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 581188}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 450578
+                }, {"id": "FR.S", "x": "Picardie", "value": 576744}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 382157
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 528014}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 480494
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 526967}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 507082
+                }, {"id": "FR.MG", "x": "Martinique", "value": 488737}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 366364
+                }, {"id": "FR.RE", "x": "Reunion", "value": 458776}]
+            }, {
+                "x": "Comtes de Tastes",
+                "revenue": 50408,
+                "last": [6311, 9665, 7652, 8504, 2873, 6515, 10852, 2551, 7338, 8883, 9605, 2647],
+                "price": 22,
+                "average_price": 16,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 378246}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 516290
+                }, {"id": "FR.C", "x": "Auvergne", "value": 307820}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 328929
+                }, {"id": "FR.E", "x": "Bretagne", "value": 439490}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 408079
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 484769}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 481465
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 312442}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 579487
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 582492}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 581316
+                }, {"id": "FR.M", "x": "Lorraine", "value": 370704}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 427231
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 408873}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 359914
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 545287}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 478137
+                }, {"id": "FR.S", "x": "Picardie", "value": 326301}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 511379
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 533700}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 424254
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 506100}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 498034
+                }, {"id": "FR.MG", "x": "Martinique", "value": 594253}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 490787
+                }, {"id": "FR.RE", "x": "Reunion", "value": 383399}]
+            }, {
+                "x": "Perrin et Fils",
+                "revenue": 590914,
+                "last": [3995, 9192, 10244, 10216, 4257, 3062, 1533, 9006, 5265, 10653, 10143, 2503],
+                "price": 14,
+                "average_price": 16,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 449655}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 376771
+                }, {"id": "FR.C", "x": "Auvergne", "value": 549601}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 313081
+                }, {"id": "FR.E", "x": "Bretagne", "value": 370564}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 577390
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 597551}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 537666
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 523091}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 515843
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 359260}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 472242
+                }, {"id": "FR.M", "x": "Lorraine", "value": 470314}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 554248
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 411626}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 580805
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 379801}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 323716
+                }, {"id": "FR.S", "x": "Picardie", "value": 352170}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 372990
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 531582}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 572574
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 515248}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 443351
+                }, {"id": "FR.MG", "x": "Martinique", "value": 436169}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 519304
+                }, {"id": "FR.RE", "x": "Reunion", "value": 331649}]
+            }, {
+                "x": "Tutti Frutti Arrogant",
+                "revenue": 330204,
+                "last": [2316, 7488, 2603, 7857, 9954, 5547, 5445, 1619, 2180, 7751, 2728, 1795],
+                "price": 8,
+                "average_price": 18,
+                "map_data": [{"id": "FR.A", "x": "Alsace", "value": 575943}, {
+                    "id": "FR.B",
+                    "x": "Aquitaine",
+                    "value": 358774
+                }, {"id": "FR.C", "x": "Auvergne", "value": 440085}, {
+                    "id": "FR.D",
+                    "x": "Bourgogne",
+                    "value": 345817
+                }, {"id": "FR.E", "x": "Bretagne", "value": 446720}, {
+                    "id": "FR.F",
+                    "x": "Centre-Val de Loire",
+                    "value": 535161
+                }, {"id": "FR.G", "x": "Champagne-Ardenne", "value": 335060}, {
+                    "id": "FR.H",
+                    "x": "Corse",
+                    "value": 398654
+                }, {"id": "FR.I", "x": "Franche-Comt�", "value": 316906}, {
+                    "id": "FR.J",
+                    "x": "�le-de-France",
+                    "value": 328123
+                }, {"id": "FR.K", "x": "Languedoc-Roussillon", "value": 315870}, {
+                    "id": "FR.L",
+                    "x": "Limousin",
+                    "value": 473319
+                }, {"id": "FR.M", "x": "Lorraine", "value": 436587}, {
+                    "id": "FR.N",
+                    "x": "Midi-Pyr�n�es",
+                    "value": 538212
+                }, {"id": "FR.O", "x": "Nord-Pas-de-Calais", "value": 482979}, {
+                    "id": "FR.P",
+                    "x": "Basse-Normandie",
+                    "value": 346162
+                }, {"id": "FR.Q", "x": "Haute-Normandie", "value": 431165}, {
+                    "id": "FR.R",
+                    "x": "Pays de la Loire",
+                    "value": 582039
+                }, {"id": "FR.S", "x": "Picardie", "value": 469567}, {
+                    "id": "FR.T",
+                    "x": "Poitou-Charentes",
+                    "value": 331283
+                }, {"id": "FR.U", "x": "Provence-Alpes-C�te d'Azur", "value": 389408}, {
+                    "id": "FR.V",
+                    "x": "Rh�ne-Alpes",
+                    "value": 395591
+                }, {"id": "FR.GF", "x": "French Guiana", "value": 316083}, {
+                    "id": "FR.GP",
+                    "x": "Guadeloupe",
+                    "value": 471017
+                }, {"id": "FR.MG", "x": "Martinique", "value": 321646}, {
+                    "id": "FR.YT",
+                    "x": "Mayotte",
+                    "value": 571541
+                }, {"id": "FR.RE", "x": "Reunion", "value": 404630}]
+            }]
+
+        }]
+    }
+};

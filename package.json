@@ -1,0 +1,22 @@
+{
+  "name": "flask-dashboard",
+  "mastertemplate": "flask-dashboard",
+  "version": "1.0.1",
+  "description": "Flask",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/ryansmccoy/flask-dashboard"
+  },
+  "bugs": {
+      "url": "https://github.com/ryansmccoy/flask-dashboard/issues",
+      "email": "support@test.us"
+  },
+  "author": "gotem",
+  "engines": {
+      "node": ">=10.0.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
